@@ -198,8 +198,8 @@ When using in-DOM templates (templates directly written in an HTML file), you sh
 
 ```html
 <!--
-This will be converted to v-bind:[someattr] in in-DOM templates.
-Unless you have a "someattr" property in your instance, your code won't work.
+This will be converted to v-bind:[someAttr] in in-DOM templates.
+Unless you have a "someAttr" property in your instance, your code won't work.
 -->
 <a v-bind:[someAttr]="value"> ... </a>
 ```
